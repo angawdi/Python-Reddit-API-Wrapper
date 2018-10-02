@@ -34,3 +34,7 @@ for submission in subreddit.hot():
     if submission.score <= 1:
         submission.reply('A lonely post!\n\n☆☆☆\n\n' + quote_choices[pick_quote_index()])
     count += 1
+
+# https://www.reddit.com/prefs/apps
+#username: redditcreate9989
+#pass: NOifw-239/faw
